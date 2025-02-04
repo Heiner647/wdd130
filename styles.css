@@ -30,18 +30,24 @@ nav a:hover {
 
 h1 {
     text-align: center;
+    margin: 40px 0 0 0 ;
 }
 img { 
-    width: 800px;
+    width: 40%;
     display: block;
-    margin: 0 auto;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
 }
 
 p{ 
-    padding: 0 20px;
+    background-color: lightblue;
+    padding: 5px 20px;
     line-height: 1.5em;
-    width: 800px;
+    width: 40%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 footer {
