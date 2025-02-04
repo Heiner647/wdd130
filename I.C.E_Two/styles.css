@@ -1,0 +1,19 @@
+
+body {
+    background-color: gray;
+
+}
+img { 
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.small_img img {
+    width: 22.9%;
+    border-radius: 50%;
+    display: inline;
+    border: 10px solid black;
+    margin:39px ;
+    
+    }
