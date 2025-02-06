@@ -1,4 +1,14 @@
 body {
-    background-color:lightblue;
+    background-color:blue;
     font-family: Georgia, 'Times New Roman', Times, serif
+}
+.Img img{
+    width: 200px;
+}
+
+#content {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
 }

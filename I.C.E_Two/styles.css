@@ -1,7 +1,6 @@
 
 body {
     background-color: gray;
-
 }
 img { 
     width: 100%;
@@ -10,10 +9,12 @@ img {
     box-sizing: border-box;
 }
 .small_img img {
-    width: 22.9%;
+    width: 26.9%;
     border-radius: 50%;
     display: inline;
     border: 10px solid black;
     margin:39px ;
-    
     }
+.small_img {
+    text-align: center;
+}

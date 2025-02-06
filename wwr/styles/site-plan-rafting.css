@@ -30,16 +30,21 @@ Fonts are separated by a & */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 4em;
+  margin: 0;
   font-size: 18px;
   text-align: center;
+  background-color: #fcfbfb; 
+
+}
+.logo{
+  width: 80px;
+}
+#hero-img {
+  width: 100%;
 }
 img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -58,6 +63,8 @@ header {
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
+  background-color: #656F75;
+
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -111,6 +118,11 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  background-color: #FAB450;
+  color: #d9c2a3;
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -118,6 +130,8 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+    color: #d9c2a3
+
 }
 .sitemap {
   display: grid;
@@ -157,8 +171,18 @@ nav a:hover {
   border-top: 1px solid;
   border-left: 1px solid;
 }
+#background {
+  height: 725px;
+  background-color: #4592c2;
+}
 .right {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
 }
+footer p {
+  font-size: 1.2em;
+}    
+footer p a:hover {
+  text-decoration: underline;
+}    
