@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Delius+Swash+Caps&display=swap');
+
 #background {
     height: 725px;
     background-color: #FAB450
@@ -5,15 +7,25 @@
 
 
 /*primary-color: #4592c2 secondary-color: #FAB450 accent1-color: white;accent2-color: #656F75;
-*/
+heading-font: "Delius Swash Caps";
+paragraph-font: "DM Serif Text", Helvetica, sans-serif;*/
 body {
     background-color: white; 
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 .logo{
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 header {
     background-color:#4592c2;
@@ -27,7 +39,7 @@ nav a{
     color: white;
     text-decoration: none;
     text-align: center;
-
+    padding:5px 35px;
 }
 
 #hero-img{
@@ -46,35 +58,43 @@ nav a:hover {
 
 }
 .home-title{
-    background-color: #4592c2;
-    color: white;
+    background-color: white;
+    color: #4592c2;
+    font-family: "Delius Swash Caps",'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
 }
 h4{
-    background-color: #4592c2;
-    color: white;
+    background-color: white;
+    color: #4592c2;
+    text-align: center;
 }
 
-.book{
-    background-color:#4592c2;
+.book, .join{
+    background-color:#656F75;
     color: white;
     text-decoration: none;
     text-align: center;
-
-
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 } 
-.join{
-    background-color:#4592c2;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-
-
+.card-img{
+    border: 10px black;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 .book:hover{
     background-color:#4592c2;
     color: white;
 
 } 
+main section img {
+    box-sizing: border-box;
+}
 .join:hover{
     background-color:#4592c2;
     color: #656F75;
@@ -82,27 +102,35 @@ h4{
 }
 .msg{
     background-color:#4592c2;
+    line-height: 1.5em;
+    padding: 35px;
+
+
 }
 .msg h2{
     background-color: #4592c2;
     color: white;
+    font-family: "Delius Swash Caps", 'Bradley Hand', sans-serif;
 }
 .msg p{
     background-color: #4592c2;
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+
 }
 
 footer{
     background-color:#4592c2;
     color: white;
-
+    padding: 25px 50px;
 }
 footer a{
     background-color: #4592c2;
     color: white;
     text-decoration: none;
     text-align: center;
-
+    margin-top: 200px;
 
 }
 footer p {
@@ -114,4 +142,7 @@ footer p a:hover {
 footer a:hover{
     background-color: #FAB450;
     color: white;
+}
+footer .social img   {
+    padding-top: 15px;
 }
