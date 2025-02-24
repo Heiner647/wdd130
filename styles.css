@@ -8,7 +8,9 @@ body {
     background-color: white;
     margin: 0 auto;
 }
-
+nav{
+    display: flex;
+}
 nav, footer{ 
     background-color: steelblue;
     padding: 20px;
@@ -39,8 +41,13 @@ img {
     padding: 20px;
     border: 2px solid black;
     box-sizing: border-box;
+    transition: .5s;
+    box-shadow: 5px 5px 10px black;
 }
-
+img:hover{
+    Opacity: .6;
+    transform: scale(1.1);
+}
 p{ 
     background-color: lightblue;
     padding: 5px 20px;
