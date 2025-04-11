@@ -119,6 +119,7 @@ img {
     border-radius: 10%;
     opacity: .9;
     box-shadow: 5px 5px 10px #6f7364;
+    margin: 10px;
     
 }
 
@@ -494,7 +495,6 @@ footer{
     align-items: center;
 }
 footer a{
-    /* background-color: #881437; */
     color: #881437;
     text-decoration: none;
     text-align: center;
@@ -513,8 +513,16 @@ footer a:hover{
 }
 footer .social img   {
     padding-top: 15px;
+    max-height: 40px;
 }
-
+form {
+    display: inline-block;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin-top: 40px;
+  }
 
 @media screen and (max-width: 900px) {
     .home-grid, .store-grid {
